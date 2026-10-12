@@ -10,7 +10,7 @@ public class GP3FPS : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { 
 			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
-			"FpsFramework"
-		});
+			"FpsFramework", "UMG"
+        });
 	}
 }
