@@ -7,7 +7,11 @@
 		{
 			"Name": "GP3FPS",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
 		}
 	],
 	"Plugins": [
@@ -20,6 +24,10 @@
 		},
 		{
 			"Name": "FpsFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
 			"Enabled": true
 		}
 	]
